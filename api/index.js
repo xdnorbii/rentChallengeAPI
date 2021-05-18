@@ -12,6 +12,6 @@ app.use(bodyParser.json());
 var routes = require('./routes/rentRoutes'); //importing route
 routes(app); //register the route
 
+module.exports = app;
 
-app.listen(port);
 
