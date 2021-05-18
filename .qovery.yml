@@ -1,0 +1,11 @@
+---
+application:
+  name: "rentchallengeapi"
+  project: "Rent-challenge-api"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-rentchallengeapi"
+  routes:
+  - application_name: "rentchallengeapi"
+    paths:
+    - "/*"
