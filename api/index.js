@@ -9,11 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-var routes = require('./api/routes/rentRoutes'); //importing route
+var routes = require('./routes/rentRoutes'); //importing route
 routes(app); //register the route
 
 
 app.listen(port);
 
-
-console.log('todo list RESTful API server started on: ' + port);
